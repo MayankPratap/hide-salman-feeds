@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Hide Salman Khan Feeds",
+  "description": "This extension will hide all salman khan feeds in all facebook pages",
+  "version": "2.0",
+
+  "browser_action": {
+   "default_icon": "burst.png",
+   "default_title":"Hide Sallu Feeds"
+  },
+  
+  "background":{
+ 
+      "scripts":["popup.js"],
+      "persistent":false
+
+  },
+
+  "permissions": [
+   "activeTab",
+   "http://www.facebook.com/*",
+   "https://www.facebook.com/*"
+  ]
+}
